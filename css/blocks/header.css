@@ -1,0 +1,16 @@
+
+.header {
+  
+}
+
+.header__content {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}

@@ -1,0 +1,21 @@
+
+
+.services {
+  padding: 0 0 94px;
+}
+
+.services__title {
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.services__list {
+  display: flex;
+  gap: 30px;
+}
+
+.services__item {
+  display: flex;
+}
+
+

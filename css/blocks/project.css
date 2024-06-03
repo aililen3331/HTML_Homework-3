@@ -1,0 +1,26 @@
+.project {}
+
+.project__image {
+  border-radius: 4px 4px 0 0;
+}
+
+.project__content {
+  padding: 20px 24px;
+}
+
+.project__title {
+  margin: 0 0 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+}
+
+.project__category {
+  margin: 0;
+  color: var(--color-grey);
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}

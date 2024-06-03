@@ -1,0 +1,36 @@
+
+
+.nav {
+  display: flex;
+}
+
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+.nav__item {
+  display: flex;
+}
+
+.nav__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.41px;
+  letter-spacing: 0.02em;
+
+  transition: color var(--transition-time);
+}
+
+.nav__link:hover {
+  color: var(--color-blue);
+}
+

@@ -1,0 +1,45 @@
+
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 600px;
+  background: #2f303a;
+}
+
+.banner__title {
+  margin: 0 auto 30px;
+  color: rgb(255, 255, 255);
+  width: 696px;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+}
+
+.banner__button {
+  margin: 0 auto;
+
+  display: block;
+  width: 216px;
+  height: 50px;
+
+  background: var(--color-blue);
+  color: #ffffff;
+  border-radius: 4px;
+  border: none;
+
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  cursor: pointer;
+}
+
+
